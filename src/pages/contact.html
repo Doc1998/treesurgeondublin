@@ -28,12 +28,13 @@ eleventyNavigation:
 
 <section id="cs-contact">
   <div class="cs-container">
-    <form id="cs-form" name="Contact Form" method="post">
+    <form id="cs-form" name="Contact Form"   action="https://formspree.io/f/mleknjwb"
+    method="POST">
       <div class="cs-content">
         <span class="cs-topper">Contact</span>
         <h2 class="cs-title">Get in Touch</h2>
         <p class="cs-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ridiculus elementum ullamcorper ipsum porttitor aliquam. Id magna urna ultrices odio pulvinar. Sed ut.
+                    Give us some details about the service you need and we will get back to you shortly.
                 </p>
       </div>
       <label>
@@ -49,22 +50,17 @@ eleventyNavigation:
                 <input required type="text" id="phone" name="phone" placeholder="Phone">
       </label>
       <label>
-                How Did You Find Us
-                <input type="text" id="find" name="find-us" placeholder="How did you find us?">
+                When do you need our service
+                <input type="datetime-local" id="find" name="Time-and-date-for-job" placeholder="How did you find us?">
       </label>
       <label class="cs-label-message">
-                Message
+                Explain the service you need
                 <textarea required name="Message" id="message" placeholder="Write message..."></textarea>
       </label>
       <button class="cs-button-solid" type="submit">Submit Message</button>
     </form>
     <div class="cs-right-section">
-      <!--Email-->
-      <span class="cs-header">Email</span>
-      <a class="cs-link" href="mailto:support@yourdomain.com">support@yourdomain.com</a>
-      <!--Phone-->
-      <span class="cs-header">Phone</span>
-      <a class="cs-link" href="tel:219-555-1234">(219) 555-1234</a>
+    
       <!--Address-->
       <span class="cs-header">Address</span>
       <a class="cs-link" href="">2553 Woodbridge Lane, <span class="cs-block">Boston Ware 120</span></a>
