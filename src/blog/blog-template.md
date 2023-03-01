@@ -1,16 +1,15 @@
 ---
-pageName: blog-template
-blogTitle: How Much Does a Solar Panel Installation Cost?
-titleTag: How Much Does a Solar Panel Installation Cost?
-blogDescription: Curious about solar panel pricing? Find out everything you want
-  to know about solar pricing from a transparent solar installation company.
-author: Joe Mendez
+pageName: man-with-a-van-service-explained
+blogTitle: Man With A Van Service Explained
+titleTag: Man With A Van Service Explained
+blogDescription: A man with a van service is a convenient and affordable option for those who are moving or transporting items. Here's everything you need to know about a man with a van service
+author: Man With A Van Cork
 date: 2023-2-13T19:40:18.253Z
 tags:
   - post
   - featured
 image: https://vermillion-dodol-8d461d.netlify.app/images/landing-1920w.webp
-imageAlt: Kitchen
+imageAlt: Man With A Van Near Me
 ---
 A man with a van service is a convenient and affordable option for those who are moving or transporting items. It involves hiring an individual who owns a van to assist with the transportation of your belongings. If you're in Cork, you can search for "man with a van near me" or "man with a van Cork" to find local options.
 
