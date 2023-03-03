@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: Doc1998/manwithavancork
-  branch: main
+  branch: HEAD
 
 local_backend: true
 # change url to a link to the image you want to use, no file paths, must be a URL

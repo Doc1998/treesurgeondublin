@@ -1,7 +1,7 @@
 ---
 pageName: how-to-move-a-fridge
 blogTitle: How To Safely Move A Large Fridge.
-titleTag: Piano Removal
+titleTag: Fridge Removal
 blogDescription: In this blog we cover what you need to know so you can safely move a heavy fridge
 author: Man With A Van Cork
 date: 2023-1-16T19:45:03.587Z
