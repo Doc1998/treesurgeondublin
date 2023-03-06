@@ -1,0 +1,256 @@
+/*-- -------------------------- -->
+<---            CTA             -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+    :root {
+      --primary: #3F88F5;
+      --bodyTextColorWhite: #FAFBFC;
+      /* 13px - 16px */
+      --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
+      /* 31px - 49px */
+      --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
+      --bodyFontSize: 1rem;
+    }
+    #cta-8220 {
+      font-family: 'Roboto', 'Arial', sans-serif;
+      /* Center button */
+      text-align: center;
+      /* 60px - 100px */
+      padding: clamp(3.75em, 7.9vw, 6.25em) 1rem 0;
+      background: #1a1a1a;
+      position: relative;
+    }
+    #cta-8220 .cs-stripes {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* prevent stripes from overalpping sections above and below */
+      overflow: hidden;
+      /* Makes it so your cursor acts like it doesn't exist */
+      pointer-events: none;
+    }
+    #cta-8220 .cs-stripes:before {
+      /* Stripe 1 */
+      content: '';
+      width: 8.25rem;
+      height: 56.25rem;
+      background: -moz-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+      opacity: .08;
+      transform: rotate(-25deg);
+      position: absolute;
+      display: block;
+      top: -9.375rem;
+      /* position in the middle, 50% from the left, no matter how wide 
+                     the screen gets, it will be placed on the center line of the div */
+      left: 50%;
+      /* push X amount of pixels from this 50% midpoint */
+      margin-left: -6.25rem;
+    }
+    #cta-8220 .cs-stripes:after {
+      /* Stripe 2 */
+      content: '';
+      width: 8.25rem;
+      height: 62.5rem;
+      background: -moz-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #ffffff 0%, rgba(255, 255, 255, 0.45) 100%);
+      opacity: .08;
+      transform: rotate(-25deg);
+      position: absolute;
+      display: block;
+      top: -6.25rem;
+      /* position in the middle, 50% from the left, no matter how wide 
+                     the screen gets, it will be placed on the center line of the div */
+      left: 50%;
+      /* push X amount of pixels from this 50% midpoint */
+      margin-left: -15rem;
+    }
+    #cta-8220 .cs-container {
+      width: 100%;
+      max-width: 67.5em;
+      margin: auto;
+    }
+    #cta-8220 .cs-content {
+      margin-bottom: 3.75em;
+    }
+    #cta-8220 .cs-topper {
+      font-size: var(--topperFontSize);
+      line-height: 1.2em;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-weight: bold;
+      /* 8px - 16px */
+      margin-bottom: clamp(8px, 1.05vw, 1rem);
+      color: var(--primary);
+      display: block;
+    }
+    #cta-8220 .cs-title {
+      font-size: var(--headerFontSize);
+      font-weight: 900;
+      line-height: 1.2em;
+      text-align: center;
+      max-width: 21.875rem;
+      margin: 0 auto 1rem;
+      color: var(--bodyTextColorWhite);
+      position: relative;
+    }
+    #cta-8220 .cs-text {
+      font-size: var(--bodyFontSize);
+      line-height: 1.5rem;
+      text-align: center;
+      width: 100%;
+      max-width: 22.875rem;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+      color: var(--bodyTextColorWhite);
+    }
+    #cta-8220 .cs-text:last-of-type {
+      margin-bottom: 2rem;
+    }
+    #cta-8220 .cs-button-solid {
+      font-size: 1rem;
+      /* 46px - 56px */
+      line-height: clamp(2.875em, 5.5vw, 3.5em);
+      text-decoration: none;
+      font-weight: 700;
+      text-align: center;
+      margin: auto;
+      color: #fff;
+      min-width: 9.375rem;
+      padding: 0 1.5rem;
+      background-color: var(--primary);
+      border-radius: 0.25rem;
+      display: inline-block;
+      position: relative;
+      z-index: 1;
+      /* prevents padding from adding to the width */
+      box-sizing: border-box;
+    }
+    #cta-8220 .cs-button-solid:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 0%;
+      background: #000;
+      opacity: 1;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      border-radius: 0.25rem;
+      transition: width .3s;
+    }
+    #cta-8220 .cs-button-solid:hover:before {
+      width: 100%;
+    }
+    #cta-8220 .cs-picture {
+      width: 100%;
+      max-width: 28.5625em;
+      margin: auto;
+      position: relative;
+      display: block;
+      aspect-ratio: 0.63157895;
+    }
+    #cta-8220 .cs-picture img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 0.5em 0.5em 0 0;
+      object-fit: cover;
+    }
+  }
+  /* Tablet - 768px */
+  @media only screen and (min-width: 48em) {
+    #cta-8220 {
+      text-align: left;
+      /* 144px - 225px - creates the white space above */
+      margin-top: clamp(9em, 9.9vw, 14.0625em);
+      position: relative;
+      z-index: 1;
+    }
+    #cta-8220 .cs-stripes:before {
+      margin-left: -7.5em;
+    }
+    #cta-8220 .cs-stripes:after {
+      margin-left: -15.9375em;
+    }
+    #cta-8220 .cs-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      position: relative;
+    }
+    #cta-8220 .cs-content {
+      margin: 0;
+      /* 40px - 100px - this gives us the space on the bottom without padding  */
+      margin-bottom: clamp(2.5rem, 6.2vw, 6.25rem);
+    }
+    #cta-8220 .cs-topper {
+      text-align: left;
+    }
+    #cta-8220 .cs-title {
+      text-align: left;
+      margin-left: 0;
+    }
+    #cta-8220 .cs-text {
+      text-align: left;
+      margin-left: 0;
+      /* 241px - 366px */
+      max-width: clamp(15.0625rem, 30vw, 22.875rem);
+      color: #fff;
+    }
+    #cta-8220 .cs-picture {
+      width: 41vw;
+      max-width: 28.5625em;
+      /* 475px - 530px */
+      height: clamp(29.6875em, 59vw, 33.25em);
+      margin: 0;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      /* reset */
+      aspect-ratio: none;
+    }
+  }
+  /* Small Desktop - 1024px */
+  @media only screen and (min-width: 64em) {
+    #cta-8220 {
+      /* 144px - 180px */
+      margin-top: clamp(9em, 12.9vw, 11.875em);
+    }
+    #cta-8220 .cs-stripes:before {
+      margin-left: -13.75em;
+      width: 12.1875em;
+    }
+    #cta-8220 .cs-stripes:after {
+      margin-left: -26.875em;
+      width: 12.125em;
+    }
+    #cta-8220 .cs-picture {
+      /* 550px - 632px - Changed for 1024px sizing */
+      height: clamp(35.625em, 40vw, 39.5em);
+    }
+  }
+  /* Large Desktop - 1300px */
+  @media only screen and (min-width: 81.25em) {
+    #cta-8220 {
+      /* Needed these to reset marign and height so it looks right from here on out */
+      margin-top: 11.25em;
+    }
+    #cta-8220 .cs-picture {
+      height: 39.375em;
+    }
+  }
+                                  
