@@ -67,3 +67,39 @@ eleventyComputed:
 
     {% include 'featured-post.html' %}
 </div>
+
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+    <div class="container">
+      <h2 class="title">
+        Tree Surgeon Dublin <br/>
+  
+      </h2>
+      <p>
+       Let our expert team handle everything for you!
+      </p>
+      <a href="/contact" class="button-solid">Get an Estimate Now</a>
+    </div>
+    {% image './src/images/portfolio/port9.jpg', 'lawn cutter', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+  </section>
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window
+        .netlifyIdentity
+        .on('init', (user) => {
+          if (!user) {
+            window
+              .netlifyIdentity
+              .on('login', () => {
+                document.location.href = '/admin/';
+              });
+          }
+        });
+    }
+  </script>
+
