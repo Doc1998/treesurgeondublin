@@ -1,8 +1,6 @@
 {
-  "name": "Man With A Van Cork",
-  "email": "hello@oakharbor.com",
-  "phone": "555-779-4407",
-  "phoneFormatted": "(555) 779-4407",
+  "name": "Tree Surgeon Dublin",
+  "email": "docmp98@gmail.com",
   "address": {
     "lineOne": "Cork, Ireland",
     "lineTwo": "",
@@ -11,5 +9,5 @@
     "postcode": "",
     "mapLink": ""
   },
-  "domain": "www.manwithavancork.ie"
+  "domain": "www.treesurgeondublin.ie"
 }
