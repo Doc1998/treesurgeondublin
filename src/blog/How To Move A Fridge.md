@@ -1,7 +1,7 @@
 ---
 pageName: Hedge Cutting Dates in Ireland
 blogTitle: Hedge Cutting Dates in Ireland.
-titleTag: Fridge Removal
+titleTag: Hedge Cutting Dates in Ireland
 blogDescription: Are you tired of overgrown hedges ruining the look of your yard? Knowing the best time to cut your hedges can make all the difference in their appearance and health.
 author: Tree Surgeon Dublin
 date: 2023-1-16T19:45:03.587Z
