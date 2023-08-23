@@ -122,8 +122,18 @@ eleventyNavigation:
   <div class="cs-container">
     <!-- Left Image Section -->
     <div class="cs-left">
-      {% image './src/images/portfolio/port4.jpg', 'Hedge Trimming', 'cs-picture cs-picture1', 'lazy'%}
-      {% image './src/images/portfolio/port7.jpg', 'Tree Surgeon Workign', 'cs-picture cs-picture2', 'lazy'%}
+         <!-- Left Image Section -->
+         <picture class="cs-picture cs-picture1" aria-hidden="true">
+          <source media="(max-width: 600px)" srcset="assets/images/cherry-pick-small.webp">
+          <source media="(min-width: 601px)" srcset="assets/images/cherry-pick-small.webp">
+          <img loading="lazy" decoding="async" src="assets/images/cherry-pick-big.webp" alt="city" width="347" height="604">
+        </picture>
+           <!-- Left Image Section -->
+           <picture class="cs-picture cs-picture2" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="assets/images/tree-surgeon-working-small.webp">
+            <source media="(min-width: 601px)" srcset="assets/images/tree-surgeon-working-small.webp">
+            <img loading="lazy" decoding="async" src="assets/images/tree-surgeon-working-big.webp" alt="city" width="347" height="604">
+          </picture>
     </div>
     <!-- Right Content Section-->
     <div class="cs-right">
@@ -140,7 +150,90 @@ We understand the importance of using high-quality materials and <a href="https:
     </div>
   </div>
 </section>
+<section id="sbs">
+  <div class="cs-container">
+    <!-- Left Image Section -->
+    <div class="cs-left">
+         <!-- Left Image Section -->
+         <picture class="cs-picture cs-picture1" aria-hidden="true">
+          <source media="(max-width: 600px)" srcset="assets/images/tree-surgeon-working-small.webp">
+          <source media="(min-width: 601px)" srcset="assets/images/tree-surgeon-working-small.webp">
+          <img loading="lazy" decoding="async" src="assets/images/tree-surgeon-working-big.webp" alt="city" width="347" height="604">
+        </picture>
+           <!-- Left Image Section -->
+           <picture class="cs-picture cs-picture2" aria-hidden="true">
+            <source media="(max-width: 600px)" srcset="assets/images/cherry-pick-small.webp">
+            <source media="(min-width: 601px)" srcset="assets/images/cherry-pick-small.webp">
+            <img loading="lazy" decoding="async" src="assets/images/cherry-pick-big.webp" alt="city" width="347" height="604">
+          </picture>
+    </div>
+    <!-- Right Content Section-->
+    <div class="cs-right">
+      <span class="cs-topper">Tree Surgeon Dublin</span>
+      <h2 class="cs-title">Keep Your Property Safe with Professional Tree Surgeons</h2>
+      <p class="cs-text">
+        Overgrown trees may seem harmless, but they can pose significant risks to your property and personal safety. Hiring a professional tree surgeon is crucial in ensuring the well-being of your surroundings. With their expertise and specialized equipment, they can trim, prune, and remove trees effectively, minimizing the dangers associated with overgrown trees.
+      <p class="cs-text">
+        Overgrown trees are more prone to weak or dead branches that can break and cause property damage during storms or strong winds. By having a tree surgeon assess the health of your trees and remove any hazardous limbs, you can protect your property from potential damage.
+      </p>
+      <p class="cs-text">
+        In addition to property concerns, overgrown trees also pose a threat to personal safety. Falling branches can lead to severe injuries for those on your property, including children and guests. A professional tree surgeon can mitigate this risk by properly maintaining your trees and reducing the chances of accidents.
+      </p>
+      <p class="cs-text">
+        Tree surgeons are also skilled in disease prevention and can identify and treat various tree diseases and infestations. By addressing these issues promptly, they can ensure the health and longevity of your trees, preventing the spread of diseases to other nearby trees.
+      </p>
+      <a href="/contact" class="button-solid">GET A FREE QUOTE TODAY</a>
+    </div>
+  </div>
+</section>
 
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-691">
+  <div class="cs-container">
+      <div class="cs-image-group">
+          <!--Main Image-->
+          <picture class="cs-picture cs-picture1">
+              <!--Mobile Image-->
+              <source media="(max-width: 600px)" srcset="assets/images/cherry-pick-small.webp">
+              <!--Tablet and above Image-->
+              <source media="(min-width: 601px)" srcset="assets/images/cherry-pick-small.webp">
+              <img loading="lazy" decoding="async" src="assets/images/cherry-pick-big.webp" alt="gym" width="542" height="647">
+          </picture>
+          <!--Small Image-->
+          <picture class="cs-picture cs-picture2">
+              <!--Mobile Image-->
+              <source media="(max-width: 600px)" srcset="assets/images/tree-surgeon-working-small.webp">
+              <!--Tablet and above Image-->
+              <source media="(min-width: 601px)" srcset="assets/images/tree-surgeon-working-small.webp">
+              <img loading="lazy" decoding="async" src="assets/images/tree-surgeon-working-big.webp" alt="weight measure" width="413" height="493">
+          </picture>
+         
+      </div>
+      <div class="cs-content">
+          <span class="cs-topper">Featured Service</span>
+          <h2 class="cs-title"><span class="cs-color">Emergency</span> Tree Services</h2>
+          <p class="cs-text">
+            Tree-related emergencies can happen at any time, and it's essential to have an expert on call to mitigate the risk and prevent damage to your property. We offer emergency tree services to our clients, ensuring that we are always available to assist you in tree-related emergencies.
+          </p>
+          <p class="cs-text">
+            Whether it's a fallen tree, a hazardous overhanging branch, or a storm-damaged tree, our experienced tree surgeons will respond quickly to your call. We have the necessary equipment, expertise, and training to handle all types of tree emergencies and mitigate potential risks.
+          </p>
+          <p class="cs-text">
+            Our emergency tree services include tree removal, tree pruning, and tree trimming to ensure that your property is safe and free from hazards. We use advanced tools and equipment to perform quick and efficient tree removals, minimizing disruption and ensuring the safety of all those involved.
+          </p>
+          <p class="cs-text">
+            When you contact us for emergency tree services, our team of professionals will arrive promptly, assess the situation, and create a customized plan to meet your specific needs. We understand the urgency of tree-related emergencies, and we always prioritize the safety of our clients and their property.
+          </p>
+          <a href="/contact" class="cs-button-solid">Contact Us Today</a>
+      </div>
+  </div>
+  <!--Floating Leaf-->
+  <img class="cs-floater" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FMISC%2Fleaf4.png" alt="leaf" width="216" height="384" aria-hidden="true">
+</section>
+                              
 <!-- ============================================ -->
 <!--                   Gallery                    -->
 <!-- ============================================ -->
